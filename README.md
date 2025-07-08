@@ -39,6 +39,20 @@ player_reid_single_feed/
 
 ---
 
+## 📥 Download Model and Videos
+
+- **Download the YOLO model (`best.pt`) from:**  
+  [Google Drive - best.pt](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)
+  
+  Place the downloaded `best.pt` file in the `models/` directory.
+
+- **Download the input videos from:**  
+  [Google Drive - Videos Folder](https://drive.google.com/drive/folders/1Nx6H_n0UUI6L-6i8WknXd4Cv2c3VjZTP)
+  
+  Place the required video (e.g., `15sec_input_720p.mp4`) in the `videos/` directory.
+
+---
+
 ## ⚙️ Getting Started
 
 ### 1. Clone this repo
@@ -56,7 +70,10 @@ venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-### 3. Run detection + tracking
+### 3. Download model and videos
+- See the [Download Model and Videos](#download-model-and-videos) section above.
+
+### 4. Run detection + tracking
 
 ```bash
 python main.py
@@ -65,6 +82,9 @@ python main.py
 ### 📦 Output
 - 🎥 Annotated video: `outputs/output.mp4`
 - 📄 Tracking CSV: `outputs/tracking_data.csv`
+- 🔗 [Download Output Video 1 (Google Drive)](https://drive.google.com/file/d/1rkQKvJI6m0Rvu2uvBweqWN2X8JXVdAAO/view?usp=drive_link)
+- 🔗 [Download Output Video 2 (broadway.mp4, Google Drive)](https://drive.google.com/file/d/11rNgXWLi3YRQU7Hdgo6J6EK4IXX0rMCC/view?usp=sharing)
+- 📁 [All Output Files (Google Drive Folder)](https://drive.google.com/drive/folders/1Y6Lp6IW_UaisUY5CoYGuxuhgRniZXgfp?usp=sharing)
 
 #### CSV Format:
 ```
@@ -88,4 +108,4 @@ The system successfully detects and tracks players using a pretrained model, ful
 ## 🙌 Credits
 - YOLOv5 by Ultralytics
 - Tracking code inspired by DeepSORT
-- Assignment support and model provided by [Assignment Team Name] 
+- Assignment support and model provided by medi@liat.ai
