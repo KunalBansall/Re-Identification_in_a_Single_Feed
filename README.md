@@ -93,6 +93,11 @@ frame,track_id,x1,y1,x2,y2
 
 ---
 
+## 📄 Project Report
+- 📑 [PDF Explanation Project Report (Google Docs)](https://docs.google.com/document/d/1r6xkbLBA1VqJoMnjVwHXuCnWONkwFkh4ySN0dCJg-S4/edit?usp=sharing)
+
+---
+
 ## 📉 Limitations
 - Only a few players (~3–4) tracked in the demo video
 - Misses distant or occluded players due to model limitations
