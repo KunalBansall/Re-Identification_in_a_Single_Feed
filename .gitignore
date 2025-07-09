@@ -21,12 +21,14 @@ videos/*.avi
 videos/*.mov
 
 # Ignore output videos and data
-outputs/
+outputs/*
+!outputs/output.mp4
+!outputs/tracking_data.csv
+!outputs/.gitkeep
 
-# Allow folder structure to be pushed (use .gitkeep files)
+# Allow folder structure to be pushed
 !models/.gitkeep
 !videos/.gitkeep
-!outputs/.gitkeep
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -43,9 +45,3 @@ Thumbs.db
 
 # Allow requirements.txt to be pushed
 !requirements.txt
-
-player_reid_single_feed/outputs/
-player_reid_single_feed/models/*.pt
-player_reid_single_feed/videos/*.mp4
-player_reid_single_feed/videos/*.avi
-player_reid_single_feed/videos/*.mov

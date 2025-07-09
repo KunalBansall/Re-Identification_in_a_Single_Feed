@@ -54,6 +54,12 @@ player_reid_single_feed/
 ---
 
 ## ⚙️ Getting Started
+## 📦 Requirements
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- Works on CPU; no GPU required
+
 
 ### 1. Clone this repo
 
@@ -81,6 +87,8 @@ python main.py
 
 ### 📦 Output
 - 🎥 Annotated video: `outputs/output.mp4`
+> Note: Output video is also available in the repository (`outputs/output.mp4`) unless excluded due to file size limits. Google Drive links provided below.
+
 - 📄 Tracking CSV: `outputs/tracking_data.csv`
 - 🔗 [Download Output Video 1 (Google Drive)](https://drive.google.com/file/d/1rkQKvJI6m0Rvu2uvBweqWN2X8JXVdAAO/view?usp=drive_link)
 - 🔗 [Download Output Video 2 (broadway.mp4, Google Drive)](https://drive.google.com/file/d/11rNgXWLi3YRQU7Hdgo6J6EK4IXX0rMCC/view?usp=sharing)
@@ -109,6 +117,17 @@ frame,track_id,x1,y1,x2,y2
 The system successfully detects and tracks players using a pretrained model, fulfilling the assignment objectives. Output is generated and stored correctly for evaluation.
 
 ---
+---
+
+## 📨 Submission Details
+
+This project was developed as a submission for the **AI Intern Assignment** by **Liat.ai**.
+
+- **Task Chosen:** Player Re-Identification in a Single Feed (Option 2)
+- **Objective:** Assign consistent IDs to players across time, even when they temporarily disappear from the frame.
+- **Submitted via:** GitHub Repository / Google Drive
+- **Submitted to:** arshdeep@liat.ai, rishit@liat.ai
+
 
 ## 🙌 Credits
 - YOLOv5 by Ultralytics
