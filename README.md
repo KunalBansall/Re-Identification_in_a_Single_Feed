@@ -102,7 +102,7 @@ frame,track_id,x1,y1,x2,y2
 ---
 
 ## 📄 Project Report
-- 📑 [PDF Explanation Project Report (Google Docs)](https://docs.google.com/document/d/1r6xkbLBA1VqJoMnjVwHXuCnWONkwFkh4ySN0dCJg-S4/edit?usp=sharing)
+- 📑 [PDF Explanation Project Report ](https://docs.google.com/document/d/1r6xkbLBA1VqJoMnjVwHXuCnWONkwFkh4ySN0dCJg-S4/edit?usp=sharing)
 
 ---
 
